@@ -67,10 +67,6 @@ body {
   margin-top: 72px;
 }
 
-/* .stats div {
-  text-align: center;
-} */
-
 .stats h2 {
   font-family: var(--font-inter-family);
   font-size: 24px;
@@ -108,13 +104,14 @@ body {
   opacity: 75.11%;
 }
 
-/* For tablets and smaller screens */
 @media (max-width: 767px) {
   .content-wrapper {
-    max-width: 375px;
-    height: 956px;
     flex-direction: column-reverse;
     margin: 88px 24px 88px 24px;
+  }
+
+  .insights-section {
+    height: 956px;
   }
 
   .text-content {
