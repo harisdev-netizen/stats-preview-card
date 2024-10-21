@@ -136,10 +136,6 @@ body {
     margin-top: 40px;
   }
 
-  .image-content {
-    /* height: ; */
-  }
-
   .image-content img {
     min-height: 100%;
     object-fit: cover;
